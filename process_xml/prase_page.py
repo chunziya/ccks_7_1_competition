@@ -274,10 +274,10 @@ def combine(file_list):
 
 
 if __name__ == "__main__":
-    # readXML_1()
-    # readXML_2()
+    readXML_1()
+    readXML_2()
     readXML_3()
-    # readXML_4()
-    # filelist = ['page_1.txt', 'page_2.txt', 'page_3.txt', 'page_4.txt']
-    # combine(filelist)
-    # combine_entity_validation(filelist)
+    readXML_4()
+    filelist = ['page_1.txt', 'page_2.txt', 'page_3.txt', 'page_4.txt']
+    combine(filelist)
+    combine_entity_validation(filelist)
